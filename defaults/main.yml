@@ -1,0 +1,7 @@
+---
+# defaults file for pip_packages
+pip_packages_executable: /usr/bin/pip3
+
+pip_packages:
+  - name: awscli
+    state: latest
